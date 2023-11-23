@@ -1,13 +1,11 @@
 # ASG5
 # YouTube Channel Analysis
 
-This repository contains Python scripts for analyzing YouTube channel data. The primary focus is to calculate and explore the distribution of different types of YouTube channels.
+This repository contains Python scripts for analyzing YouTube channel data. The primary focus is to calculate and explore the distribution of different types of YouTube channels and export the output to a csv file and enter it into the sql database.
 
 ## Getting Started
 
-These instructions will guide you in setting up the project locally for development and testing.
-
-### Prerequisites
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
 
 To run the scripts, ensure you have the following Python packages installed:
 - pymysql
@@ -53,6 +51,8 @@ The script is designed for a local development environment. For deployment, addi
 1.Pandas - Data manipulation and CSV file handling.
 
 2.SQLAlchemy - Database interaction.
+
+3.PyMySQL - A MySQL database client for Python, used for database connections.
 
 ## Authors
 
