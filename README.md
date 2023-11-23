@@ -14,15 +14,14 @@ To run the scripts, ensure you have the following Python packages installed:
 - pandas
 - sqlalchemy
 
-### Installation
+## Installing
+To set up your development environment, follow these steps:
 
-Clone the repository and install the necessary packages using pip:
-
-!pip install pymysql
-!pip install pandas sqlalchemy
-
-markdown
-Copy code
+Clone the repository to your local machine.
+Install the necessary Python packages using the provided requirements.txt.
+Modify the YouTube Channel Analysis.py script with your database credentials (ensure they are not the actual credentials when you push to GitHub).
+Run the script to process the data:
+python "YouTube Channel Analysis.py"
 
 ## Running the Scripts
 
@@ -42,6 +41,10 @@ The main script performs the following tasks:
 
 The script is designed for a local development environment. For deployment, additional configuration may be required depending on your setup.
 
+## Built With
+Pandas - Data manipulation and CSV file handling.
+SQLAlchemy - Database interaction.
+
 ## Authors
 
 * **[Arsney091289421]** - *Initial work* - [YourGitHub](https://github.com/Arsney091289421)
@@ -52,6 +55,5 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc.
+* Hat tip to Durham College and professor Omar
+
