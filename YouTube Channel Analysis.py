@@ -65,7 +65,7 @@ top_1000_records.to_csv('top_1000_channels.csv', index=False)
 
 
 # Create a database engine
-engine = create_engine('mysql+pymysql://root:lizeyu123@127.0.0.1:3306/1202')
+engine = create_engine('mysql+pymysql://<username>:<password>@<host>:<port>/<database>')
 
 # Write the DataFrame to the 'Top1000Channels' table in the database
 top_1000_records.to_sql('Top1000Channels', con=engine, index=False, if_exists='replace')
