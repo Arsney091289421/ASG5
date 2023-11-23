@@ -44,11 +44,11 @@ The script is designed for a local development environment. For deployment, addi
 
 ## Authors
 
-* **[Your Name]** - *Initial work* - [YourGitHub](https://github.com/YourGitHub)
+* **[Arsney091289421]** - *Initial work* - [YourGitHub](https://github.com/Arsney091289421)
 
 ## License
 
-This project is licensed under the [LICENSE NAME] License - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the MIT License - see the LICENSE.md file for details
 
 ## Acknowledgments
 
